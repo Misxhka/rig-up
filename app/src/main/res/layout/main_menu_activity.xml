@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menubgd"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".NavDrawerActivity"
+    tools:showIn="@layout/app_bar_nav_drawer" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minWidth="25dp"
+        android:minHeight="70dp"
+        android:text="@string/menu_title"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:id="@+id/gridLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="212dp"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:columnOrderPreserved="true"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:padding="50dp"
+        android:rowCount="1">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardLow"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="36dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="7dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:gravity="top"
+                android:text="@string/low_desc"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="top"
+                android:text="@string/low_end"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/optionLow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="bottom"
+                android:background="@color/clear"
+                android:paddingStart="0dp"
+                android:paddingEnd="20dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/ic_option_more" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardMid"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="7dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:gravity="top"
+                android:text="@string/mid_end"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:gravity="top"
+                android:text="@string/mid_desc"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="13sp" />
+
+            <ImageButton
+                android:id="@+id/optionMid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="bottom"
+                android:background="@color/clear"
+                android:paddingStart="0dp"
+                android:paddingEnd="20dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/ic_option_more" />
+
+        </android.support.v7.widget.CardView>
+
+    </GridLayout>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardHi"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="7dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="top"
+            android:text="@string/hi_end"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:gravity="top"
+            android:padding="4dp"
+            android:text="@string/hi_desc"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="13sp" />
+
+        <ImageButton
+            android:id="@+id/optionHigh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="bottom"
+            android:background="@color/clear"
+            android:paddingStart="0dp"
+            android:paddingEnd="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ic_option_more" />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:minWidth="25dp"
+        android:minHeight="61dp"
+        android:text="@string/other"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:id="@+id/gridLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:padding="15dp"
+        android:rowCount="1">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardPsu"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="70dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="7dp">
+
+            <TextView
+                android:layout_width="118dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/watt_calc"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/optionPsu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="bottom"
+                android:background="@color/clear"
+                android:paddingStart="0dp"
+                android:paddingEnd="20dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/ic_option_more" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardInfo"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="7dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/qinfo"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/optionQinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="bottom"
+                android:background="@color/clear"
+                android:paddingStart="0dp"
+                android:paddingEnd="20dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/ic_option_more" />
+        </android.support.v7.widget.CardView>
+
+    </GridLayout>
+</LinearLayout>

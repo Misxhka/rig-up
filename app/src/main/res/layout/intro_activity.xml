@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainbg">
+    <ImageView
+        android:src="@drawable/rig_logo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:contentDescription="@string/todo" />
+    <android.support.v7.widget.CardView
+        app:cardElevation="7dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@android:color/darker_gray"
+        android:layout_gravity="center"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_marginTop="-30dp"
+        android:layout_width="250dp"
+        android:layout_height="270dp"
+        android:id="@+id/cardView1">
+        <TextView
+            android:text="@string/intro"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:padding="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="@string/intro2"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:padding="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="410dp"
+            android:id="@+id/textView2" />
+
+    </android.support.v7.widget.CardView>
+
+
+    <Button
+        android:id="@+id/btnGen"
+        android:textAllCaps="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/Generate"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp" />
+</LinearLayout>

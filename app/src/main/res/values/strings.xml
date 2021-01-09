@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Rig Up!</string>
+
+    <string name="menu_title">Choose your build</string>
+    <string name="watt_calc">PSU Watt Calculator</string>
+    <string name="low_end">Low-End</string>
+    <string name="mid_end">Mid-End</string>
+    <string name="hi_end">High-End</string>
+    <string name="low_desc">(low-medium performance)</string>
+    <string name="mid_desc">(medium-high performance)</string>
+    <string name="hi_desc">(ultra performance)</string>
+    <string name="other">Other</string>
+    <string name="qinfo">Quick Info</string>
+
+    <string name="acc_setting">Account setting</string>
+    <string name="history">History</string>
+    <string name="logout">Sign out</string>
+
+    <string name="Generate">Generate a build</string>
+    <string name="ApplicationName">Rig Up!</string>
+    <string name="intro">This app was created as a means to help beginners, gamers, graphic designers even office workers to pick their parts to build their own custom PC as for gaming purpose, designing, work and etc. Prices and parts are regularly updated depending on the current situation.</string>
+    <string name="intro2">Rig Up! aims to simplify things by providing a parts list to start you off, which can be customized to your particular needs</string>
+
+    <string name="Sinbtn">Sign In</string>
+    <string name="Supbtn">Sign Up</string>
+    <string name="todo">TODO</string>
+
+    <string name="signin">Sign In</string>
+    <string name="signup">Sign Up</string>
+    <string name="userN">Username</string>
+    <string name="pass">Password</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+
+    <string name="registration_success">Successfully Registered!</string>
+    <string name="Signin_success">Sign in success</string>
+    <string name="InvalidCredential">Invalid Email or Password</string>
+    <string name="ChooseImage">Tap on picture to choose profile picture</string>
+    <string name="DisplayName">Enter Display Name</string>
+    <string name="Save">Save</string>
+
+
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="title_activity_nav_drawer">Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Hi !</string>
+    <string name="nav_header_subtitle">user@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">App info</string>
+    <string name="socket">Socket</string>
+    <string name="motherboard">Motherboard</string>
+    <string name="rig_up_application">Rig Up! Application</string>
+    <string name="version">Version 1.4.0</string>
+    <string name="rip_up_inc">2018-2019 Rip Up! Inc.</string>
+    <string name="all_rights_reserved">All rights reserved.</string>
+    <string name="cpu">CPU</string>
+    <string name="select_cpu">Select CPU</string>
+    <string name="intel">Intel</string>
+    <string name="select_motherboard">Select Motherboard</string>
+    <string name="select_memory">Select Memory</string>
+    <string name="select_gpu">Select GPU</string>
+    <string name="select_storage">Select Storage</string>
+    <string name="select_casing">Select Casing</string>
+    <string name="select_psu">Select PSU</string>
+    <string name="psu_estimation">PSU Estimation:</string>
+    <string name="calculate_watt">Calculate Watt and Price</string>
+    <string name="watt_value">0 W</string>
+    <string name="component">Component</string>
+    <string name="price">Price:</string>
+    <string name="price_value">0 MYR</string>
+    <string name="calculate_watt_psu">Calculate Watt</string>
+
+    <string name="option_info_psu">This tool will help you to choose a suitable power supply unit for your rig/system. \n</string>
+    <string name="option_info_low">Price range: \n 900.00MYR - 1700.00MYR \n\n Suitable for: \n -Competitive gaming(medium-high graphic setting with 60fps) \n -Single player gaming(low-medium) \n -Office work \n -Designing \n -Editing \n -Multi-tasking \n</string>
+    <string name="option_info_mid">Price range: \n 1800.00MYR - 3000.00MYR \n\n Suitable for: \n -Gaming(High-Ultra graphic setting) \n -Office work \n -Designing \n -Editing \n -Rendering \n -Multi-tasking \n -Overclocking \n</string>
+    <string name="option_info_hi">Price range: \n 3100.00MYR and above \n\n Suitable for: \n -Gaming(Ultra setting) \n -Office work \n -Designing \n -Editing \n -Rendering \n -Sreaming and recording \n -Mega-tasking \n</string>
+    <string name="option_info_quick">Basic info about the component used in this app in term of aesthetic pleasure. \n</string>
+
+    <string name="moboboard">Motherboard:</string>
+    <string name="processor">Processor:</string>
+    <string name="memory">Memory:</string>
+    <string name="graphic_card">Graphic card:</string>
+    <string name="storage">Storage:</string>
+    <string name="casing">Casing:</string>
+    <string name="power_supply">Power supply:</string>
+    <string name="total_price">Total Price:</string>
+    <string name="total_wattage">Total Wattage:</string>
+    <string name="remember_me">Remember me</string>
+    <string name="export">Export</string>
+
+</resources>

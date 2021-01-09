@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "1073717372810",
+    "firebase_url": "https://rig-up.firebaseio.com",
+    "project_id": "rig-up",
+    "storage_bucket": "rig-up.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073717372810:android:38862c0f150bd350",
+        "android_client_info": {
+          "package_name": "rig.up"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073717372810-21au3rv27f4r8br7f27crieb4qf1ptm9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rig.up",
+            "certificate_hash": "1d5b21052624fb53e5b006b5c313464f18660afa"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD84cUKqyEqtvIVIp5waCQzDlXhvr7DdHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073717372810-879dcqjmo0qdfb5287olhs80ddqin7eo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

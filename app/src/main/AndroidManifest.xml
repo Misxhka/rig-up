@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="rig.up">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+
+
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+
+
+        <activity android:name=".SavedListActivity"></activity>
+        <activity android:name=".PsuCalculatorActivity" />
+        <activity android:name=".MidEndActivity" />
+        <activity android:name=".ComponentDetail" />
+        <activity android:name=".LowEndActivity" />
+        <activity android:name=".HighEndActivity" />
+        <activity android:name=".ComponentListActivity" />
+        <activity
+            android:name=".NavDrawerActivity"
+            android:label="@string/title_activity_nav_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/MyTheme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RigIntroActivity" />
+        <activity android:name=".RegLogActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:launchMode="singleTask" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".QuickInfoActivity" />
+        <activity
+            android:name=".SubMenu.AccountActivity"
+            android:label="Account setting"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubMenu.HistoryActivity"
+            android:label="History"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubMenu.SignOutActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AppInfoActivity"
+            android:theme="@style/MyTheme.Splash" />
+    </application>
+
+</manifest>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:gravity="center"
+        android:text="@string/rig_up_application"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="720dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/todo"
+        android:foregroundGravity="center"
+        android:src="@drawable/rig_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:gravity="center"
+        android:text="@string/version"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="870dp"
+        android:gravity="center"
+        android:text="@string/rip_up_inc"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="900dp"
+        android:gravity="center"
+        android:text="@string/all_rights_reserved"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>
